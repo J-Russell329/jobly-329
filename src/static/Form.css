@@ -9,6 +9,7 @@
 .form-entry {
 	padding: 20px;
 	border: black 1px solid;
+	max-width: 500px;
 }
 
 .form-entry div {

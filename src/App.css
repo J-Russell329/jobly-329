@@ -45,6 +45,7 @@
 	position: relative;
 	min-height: 90vh;
 	flex-direction: column;
+	align-items: center;
 }
 .app div {
 	width: 100vw;
