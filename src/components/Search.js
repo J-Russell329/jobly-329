@@ -15,7 +15,6 @@ function SearchBar() {
 	}
 
 	useEffect(() => {
-		// console.log(history);
 		return () => {
 			setSearchValue('');
 			context.setQuery(null);

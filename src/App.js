@@ -22,13 +22,6 @@ function App() {
 	}, [location]);
 
 	useEffect(() => {
-		if (errors) {
-			console.log('we have errors');
-			console.log(errors);
-		}
-	}, [errors]);
-
-	useEffect(() => {
 		localStorage.setItem('token', user.token);
 		if (user.token && user.username) {
 			JoblyApi.getUserData(user.username, user.token).then((value) => {
